@@ -15,6 +15,8 @@
 		ED0ABF001FC7EBA200A3B370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0ABEFE1FC7EBA200A3B370 /* LaunchScreen.storyboard */; };
 		ED0ABF0B1FC7EBA300A3B370 /* PeekPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ABF0A1FC7EBA300A3B370 /* PeekPopTests.swift */; };
 		ED0ABF161FC7EBA300A3B370 /* PeekPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ABF151FC7EBA300A3B370 /* PeekPopUITests.swift */; };
+		ED0ABF241FC7F89000A3B370 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ABF231FC7F89000A3B370 /* PreviewViewController.swift */; };
+		ED0ABF261FC7F96400A3B370 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ABF251FC7F96400A3B370 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED0ABF111FC7EBA300A3B370 /* PeekPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0ABF151FC7EBA300A3B370 /* PeekPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekPopUITests.swift; sourceTree = "<group>"; };
 		ED0ABF171FC7EBA300A3B370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0ABF231FC7F89000A3B370 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		ED0ABF251FC7F96400A3B370 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				ED0ABEF21FC7EBA200A3B370 /* AppDelegate.swift */,
 				ED0ABEF41FC7EBA200A3B370 /* ViewController.swift */,
+				ED0ABF231FC7F89000A3B370 /* PreviewViewController.swift */,
+				ED0ABF251FC7F96400A3B370 /* FinalViewController.swift */,
 				ED0ABEF61FC7EBA200A3B370 /* Main.storyboard */,
 				ED0ABEFC1FC7EBA200A3B370 /* Assets.xcassets */,
 				ED0ABEFE1FC7EBA200A3B370 /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0ABF261FC7F96400A3B370 /* FinalViewController.swift in Sources */,
 				ED0ABEF51FC7EBA200A3B370 /* ViewController.swift in Sources */,
 				ED0ABEF31FC7EBA200A3B370 /* AppDelegate.swift in Sources */,
 				ED0ABEFB1FC7EBA200A3B370 /* PeekPop.xcdatamodeld in Sources */,
+				ED0ABF241FC7F89000A3B370 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
